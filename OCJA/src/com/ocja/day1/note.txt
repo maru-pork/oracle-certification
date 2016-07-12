@@ -1,0 +1,16 @@
+https://www.quora.com/How-can-I-export-the-project-in-Eclipse-to-a-GitHub-repository
+
+******
+
+The order of initialization of a class is:
+1. All static constants, variables and blocks.(Among themselves the order is the order in which they appear in the code.)
+2. All non static constants, variables and blocks.(Among themselves the order is the order in which they appear in the code.)
+3. Constructor.
+
+******
+
+However, remember that, in Java, every call is pass by value
+
+The official exam objectives now explicitly mention Garbage collection. All you need to know is:
+1. An object can be made eligible for garbage collection by making sure there are no references pointing to that object.
+2. You cannot directly invoke the garbage collector. You can suggest the JVM to perform garbage collection by calling System.gc();
