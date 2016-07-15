@@ -1,4 +1,4 @@
-package com.ocja.day1;
+package com.ocja.javabasics;
 
 public class Main {	
 	public static void main(String[] args) {

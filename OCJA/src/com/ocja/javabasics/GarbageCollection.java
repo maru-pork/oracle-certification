@@ -1,4 +1,4 @@
-package com.ocja.day1;
+package com.ocja.javabasics;
 
 class GarbageCollection {
 	private M m = new M();

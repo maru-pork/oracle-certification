@@ -1,4 +1,4 @@
-package com.staticimport.foo;
+package com.ocja.javabasics.staticimport.foo;
 
 public class X {
 	
