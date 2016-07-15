@@ -20,6 +20,8 @@ The official exam objectives now explicitly mention Garbage collection. All you 
 Static import
 1) Only a type can be imported. com.staticimport.foo resolves to a package
 
+com.staticimport.foo.X; -- not valid
+
 ******
 
 A valid declaration of "the" main() method must be public and static, should return void, and should take a single array of Strings.  
