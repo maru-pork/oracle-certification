@@ -9,12 +9,14 @@ public class OrderOfInitialization {
 	
 	// static initializer
 	static {
-		System.out.println("static");
+		System.out.println("static initializer");
 	}
 
 	static A  sa1 = new A(1);
 	A a = new A(2);
-		
+	{
+		System.out.println("instance initializer");
+	}
 	public static void print() {
 		System.out.println("print");
 	}
